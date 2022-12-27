@@ -1,0 +1,26 @@
+GET  http://localhost:5000/users
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama": "Robi Setiawan",
+    "nik": "349274858395801",
+    "tanggal": "8 Agustus 2001",
+    "alamat": "Jl. Jatimulyo",
+    "divisi": "Design",
+    "jabatan": "Karyawan"
+}
+
+###
+PUT  http://localhost:5000/users/63aa82b0027013049818ad9f
+Content-Type: application/json
+
+{
+    "nama": "Akbar"
+}
+
+###
+DELETE   http://localhost:5000/users/63aa82b0027013049818ad9f
